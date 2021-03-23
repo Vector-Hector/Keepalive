@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+    <EditTextPreference
+            android:title="Edit the request urls"
+            android:defaultValue="http://www.google.com/"
+            android:summary="Separate by ENTER"
+            android:key="monitored_servers"
+    />
+
+</androidx.preference.PreferenceScreen>
